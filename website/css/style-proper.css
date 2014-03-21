@@ -1,0 +1,570 @@
+@charset 'UTF-8';
+
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+/*
+	Helios 1.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+.copy{
+	line-height:1.5em;
+}
+.divCopy{
+	padding-top:50px;
+}
+
+
+.copyright{
+	font-size:15px;
+	font-style:arial;
+	color:#555555;
+	text-align:center;
+	padding-top:50px;
+}
+
+.linkSeeFees{
+	font-weight:bold;
+	color:white !important;
+}
+#abouts{
+	margin-top:300px;text-align:center;
+}
+.textoContenidos{
+	font-size:30px;
+	text-align:center;
+}
+/* GITHUB */
+
+.gitHubContainer{
+	width:100%;
+	height:315px;
+/*	zoom:0.7; */
+	margin-top:70px;
+/*	-moz-transform: scale(0.7);*/
+}
+
+.leftFig{
+	width:144px;height:315px;float:left;
+}
+
+.figContainer{
+	width:500px;height:315px;float:left;
+}
+.figContainer p{
+	text-align: center;font-size:14px;
+
+}
+.subGitHub{
+	height:315px;
+	width:788px;
+}
+.topMarginFig{
+	width:100%;height:20%;
+}
+
+.halfDivBorderRight{
+	width:50%;height:40%;float:left;border-right-style: solid; border-color:#5d2e10; border-width:3px;
+}
+.figContainer .leftP{
+	text-align: center;font-size:14px;padding-right:50px;
+}
+.onlyTextBrochureFigLeft;{
+	width:100%;height:20%;
+}
+
+.onlyTextBrochureFigRight;{
+	width:100%;height:20%;
+}
+
+.acrobatContainer{
+	height:65px;
+	width:100%;
+	padding-left:0px;
+}
+
+.imgAcroFig{
+	float:left;padding-right:13%;
+}
+
+.illustratorText{
+	width:100%; height:50px;
+}
+.illustratorText .leftP{
+	padding-right:50px;
+} 
+.illustratorText .rightP{
+
+}
+
+.halfDivLeft{
+	width:50%;height:40%;float:left;
+}
+
+.gitHubStyleText{
+	text-align: center;font-size:55px;font-weight: bold;
+}
+
+/* GITHUB */
+
+#nav
+	{
+		position: fixed;
+		background: #613417;
+		top: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		padding: 0.5em 0 0.5em 0;
+		z-index: 1;
+		overflow: hidden;
+		color: #fff;
+		font-size:17px !important;
+		opacity:0;
+	}
+	
+.vacioInferior{
+	height:200px;
+	width:100%;
+}
+
+.textoQR{
+	text-align:center;
+	line-height:1.5em;
+	color: #fff;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.listita
+{
+	text-align: center;
+	background: #5d2e10;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	min-height:230px;
+}
+
+
+
+.bitcoinMerchantDiv{
+	width: 100%;
+	height: 550px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+		.bitcoinMerchantDiv div{
+			width:50%;
+			height:auto;
+			float:left;
+		}
+
+		
+
+
+/* MERCHANTS */
+
+.contenedorMerchants{
+	overflow: hidden;
+	width:100%;
+	background-color:#5d2e10; 
+	margin-top:70px;
+	height:430px;
+
+}
+
+.cuadro1{
+					width:20%;
+					background-color:#5d2e10;
+					float:left;
+					min-height:200px;
+					overflow:hidden;
+				}
+
+.cuadro2{
+			width:20%;height:100%;background-color:#5d2e10;float:left;text-align:center;
+				}
+				
+.cuadro3{
+			width:20%;height:100%;background-color:#5d2e10;float:left;text-align:center;
+				}		
+.cuadro4{
+			width:20%;height:100%;background-color:#5d2e10;float:left;text-align:center;
+				}	
+.cuadro5{
+			width:20%;background-color:#5d2e10;float:left;
+				}
+				
+				
+	.cuadro2 .superior{
+		width:100%;height:101px;
+	}
+
+	.cuadro3 .superior{
+		width:100%;height:101px;
+	}	
+
+	.cuadro4 .superior{
+		width:100%;height:101px;
+	}
+	
+	.cuadro2 .listita{
+		padding-top:15%;
+	}
+	
+	.cuadro3 .listita{
+		padding-top:12%;
+	}
+	
+	.cuadro4 .listita{
+		padding-top:15%;
+	}
+	
+		.cuadro2 .contenido{
+			height:50%;
+			width:100%;
+			background-color:#5d2e10;
+		}
+		
+		.cuadro3 .contenido{
+			height:50%;
+			width:100%;
+			background-color:#5d2e10;
+			border-right-style: solid; 
+			border-left-style: solid;
+			border-width: 1px; 
+			border-color:white;
+		}
+		
+		.cuadro4 .contenido{
+			height:50%;
+			width:100%;
+			background-color:#5d2e10;
+		}
+		
+		.listita{
+			color:white;
+		}
+		
+		.footerMerchant{
+			width:100%;background-color:#5d2e10;height:80px;padding-top:30px;
+		}
+/* MERCHANTS */
+
+/* BROCHURE */
+.contendorCuadroBrochure{
+	min-height:250px;
+	width:100%;
+	margin-top:70px;
+}
+	.brochure1{
+		width:50%;
+		float:left;
+	 }
+	 
+	.brochure2{
+		width:50%;
+		float:left;
+	}
+	
+	.brochure1 div{
+		float:right;
+		
+		height:250px; 
+		width:auto;
+		margin-right:10%;
+	}
+	
+	.brochure2 div{
+		float:left;
+		
+		height:250px; 
+		width:auto;
+		margin-left:10%;
+	 }
+
+/* BROCHURE */
+
+/* ABOUTS */
+.contenedorDivsQRFull{
+	width:100%;
+	overflow:hidden;
+	background-color:#5d2e10;
+	text-align:center;
+	margin-top:70px;
+}
+.contenedorDivsQR{
+	width:100%;
+	overflow:hidden;
+	margin-top:20px;
+}
+
+.divTextoDonacion{
+	width:100%;
+	overflow:hidden;
+	font-size:12px;
+	color:white;
+	margin-top:10px;
+}
+		.about1{
+			width:15%;
+			float:left;
+			min-height:200px;
+		}
+
+		.about2{
+			width:35%;
+			float:left;
+			margin-bottom:1em;
+
+		}
+		
+			.about2 div{
+				margin-right:10%;
+				overflow:hidden;
+				
+			}
+				
+		.about3{
+			width:35%;
+			float:left;
+			margin-bottom:1em;
+		}
+		
+			.about3 div{
+				margin-left:10%;
+				overflow:hidden;
+			}
+		
+		.about4{
+			width:15%;
+			float:left;
+				}
+
+
+@media screen and (max-width: 1600px) {
+
+.contenedorMerchants{
+	overflow: hidden;
+	min-height:500px;
+	width:100%;
+	background-color:#5d2e10;
+	height:auto;
+	margin-top:70px;
+}
+
+	.cuadro1{
+		width:5% !important;
+	}
+		.cuadro2{
+		width:30% !important;
+	}
+		.cuadro3{
+		width:30% !important;
+	}
+		.cuadro4{
+		width:30% !important;
+	}
+	.cuadro5{
+		width:5% !important;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.cuadro1{
+		width:0% !important;
+	}
+		.cuadro2{
+		width:33% !important;
+	}
+		.cuadro3{
+		width:34% !important;
+	}
+		.cuadro4{
+		width:33% !important;
+	}
+	.cuadro5{
+		width:0% !important;
+	}
+}
+
+/* ABOUTS */
+@media screen and (max-width: 700px) {
+
+.gitHubContainer{
+	visibility:hidden;
+	overflow:hidden;
+	height:0px;
+}
+
+.listita{
+	min-height:0px;
+}
+.bitcoinMerchantDiv{
+	width: 100%;
+	height: 550px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+		.bitcoinMerchantDiv div{
+			width:100%;
+			height:auto;
+			float:left;
+			margin-top:10px;
+		}
+		
+		
+.contenedorMerchants{
+	overflow: hidden;
+	min-height:500px;
+	width:100%;
+	background-color:#5d2e10;
+	height:auto;
+	margin-top:50px;
+}
+
+		.cuadro1{
+			display:none;
+		}
+
+		.cuadro2{
+			width:100% !important;
+			height:100%;
+			background-color:#5d2e10;
+			float:left;
+			margin-bottom:1em;
+		}
+
+		.cuadro3{
+			width:100% !important;
+			height:100%;
+			background-color:#5d2e10;
+			float:left;
+			margin-bottom:1em;
+		}
+		
+		.cuadro4{
+			width:100% !important;
+			height:100%;
+			background-color:#5d2e10;
+			float:left;
+			margin-bottom:1em;
+				}
+				
+		.cuadro5{
+			display:none;
+		}
+		
+		.cuadro3 .contenido{
+			border-color:#5d2e10;
+		}
+		
+			.cuadro2 .listita{
+		padding-top:5%;
+	}
+	
+	.cuadro3 .listita{
+		padding-top:5%;
+	}
+	
+	.cuadro4 .listita{
+		padding-top:5%;
+	}
+		
+		/* BROCHURE */
+.contendorCuadroBrochure{
+	min-height:250px;
+	overflow:hidden;
+	width:100%;
+	margin-top:100px;
+}
+	.brochure1{
+		width:100%;
+		float:left;
+	}
+
+	 .brochure2{
+		width:100%;
+		float:left;
+	 }	
+	 
+	.brochure1 div{
+		height:250px; 
+		width:300px;
+		margin-right:0% !important;
+		float:none;
+	 }
+	 
+	.brochure2 div{
+		height:250px; 
+		width:300px;
+		margin-left:0% !important;
+		float:none;
+	 }
+	 
+
+
+/* BROCHURE */
+
+
+/* ABOUTS */
+
+		.about1{
+			display:none;
+		}
+
+		.about2{
+			width:100%;
+			float:left;
+		}
+
+		.about3{
+			width:100%;
+			float:left;
+		}
+		
+		.about4{
+			display:none;
+		}
+		
+			.about3 div{
+				margin-left:0%;
+				overflow:hidden;
+				margin-top:30px;
+			}
+			
+			.about2 div{
+				margin-right:0%;
+				overflow:hidden;
+			}
+/* ABOUTS */
+
+		.vacioInferior{
+			height:50px;
+			width:100%;
+		}
+		
+		.textoContenidos{
+			font-size:30px;
+			text-align:center;
+			display:none;
+		}
+}
+
+
+
+
+
+
+
+
+
+
